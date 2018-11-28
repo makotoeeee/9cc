@@ -76,7 +76,7 @@ int main(int argc, char **argv) {
       i++;
       if (tokens[i].ty != TK_NUM)
         error(i);
-      printf(" add rax, %d\n", tokens[i].val);
+      printf("  add rax, %d\n", tokens[i].val);
       i++;
       continue;
     }
